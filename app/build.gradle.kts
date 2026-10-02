@@ -23,19 +23,19 @@ android {
   }
 signingConfigs {
     create("release") {
-      val keystorePath = System.getenv("KEYSTORE_PATH") ?: "${rootDir}/FUCKER.jks"
-      storeFile = file(keystorePath)
-      storePassword = System.getenv("MCTECOttdemon20@")
-      keyAlias = "FUCKER"
-      keyPassword = System.getenv("MCTECOttdemon20@")
+        storeFile = file("${rootDir}/FUCKER.jks")
+        storePassword = "MCTECOttdemon20@"
+        keyAlias = "FUCKER"
+        keyPassword = "MCTECOttdemon20@"
     }
+
     create("debugConfig") {
-      storeFile = file("${rootDir}/FUCKER.jks")
-      storePassword = "MCTECOttdemon20@"
-      keyAlias = "FUCKER"
-      keyPassword = "MCTECOttdemon20@"
+        storeFile = file("${rootDir}/FUCKER.jks")
+        storePassword = "MCTECOttdemon20@"
+        keyAlias = "FUCKER"
+        keyPassword = "MCTECOttdemon20@"
     }
-  }
+}
   buildTypes {
     release {
       isCrunchPngs = false
