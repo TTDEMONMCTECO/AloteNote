@@ -1,0 +1,6 @@
+{
+  "name": "အလုပ်စာရင်း",
+  "description": "နေ့စဉ် အလုပ်ချိန်၊ နေ့စားခနှင့် အချိန်ပို OT ကြေး တွက်ချက်မှတ်တမ်းတင်သည့် App (Work & OT Wage Calculator)",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
