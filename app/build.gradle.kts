@@ -21,23 +21,21 @@ android {
 
     testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
   }
-
-  signingConfigs {
+signingConfigs {
     create("release") {
-      val keystorePath = System.getenv("KEYSTORE_PATH") ?: "${rootDir}/my-upload-key.jks"
+      val keystorePath = System.getenv("KEYSTORE_PATH") ?: "${rootDir}/FUCKER.jks"
       storeFile = file(keystorePath)
-      storePassword = System.getenv("STORE_PASSWORD")
-      keyAlias = "upload"
-      keyPassword = System.getenv("KEY_PASSWORD")
+      storePassword = System.getenv("MCTECOttdemon20@")
+      keyAlias = "FUCKER"
+      keyPassword = System.getenv("MCTECOttdemon20@")
     }
     create("debugConfig") {
-      storeFile = file("${rootDir}/debug.keystore")
-      storePassword = "android"
-      keyAlias = "androiddebugkey"
-      keyPassword = "android"
+      storeFile = file("${rootDir}/FUCKER.jks")
+      storePassword = "MCTECOttdemon20@"
+      keyAlias = "FUCKER"
+      keyPassword = "MCTECOttdemon20@"
     }
   }
-
   buildTypes {
     release {
       isCrunchPngs = false
